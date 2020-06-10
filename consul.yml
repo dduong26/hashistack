@@ -1,0 +1,6 @@
+- name: Setting Consul cluster
+  hosts: consul
+  remote_user: ansible
+  become: yes
+  roles:
+    - common

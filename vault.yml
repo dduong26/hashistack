@@ -1,0 +1,6 @@
+- name: Setting Vault cluster
+  hosts: vault
+  remote_user: ansible
+  become: yes
+  roles:
+    - common

@@ -1,0 +1,6 @@
+- name: Setting Nomad cluster
+  hosts: nomad
+  remote_user: ansible
+  become: yes
+  roles:
+    - common
