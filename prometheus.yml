@@ -1,6 +1,0 @@
-- name: Setting Prometheus server
-  hosts: prometheus
-  remote_user: ansible
-  become: yes
-  roles:
-    - common
